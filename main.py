@@ -7,7 +7,7 @@ import tkinter.messagebox as mb
 import tkinter.simpledialog as sd 
 
 # Connecting to Database
-connector = sqlite3.connect('library.db')
+connector = sqlite3.connect('library.db') 
 cursor = connector.cursor()
 
 connector.execute(
